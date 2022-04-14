@@ -31,6 +31,7 @@
                             </b>
                             Buku
                         </a>
+                        <a class="nav-item nav-link" onclick="information('Waktu Pengambilan Buku 1x24 jam dari Booking!!!')" href="<?php echo base_url() . 'booking/exportToPdf/' . $this->session->userdata('id_user'); ?>">Cetak Bukti Booking</a>
                         <a class="nav-item nav-link" href="<?= base_url('member/myprofil'); ?>">Profil Saya</a>
                         <a class="nav-item nav-link" href="<?= base_url('member/logout'); ?>"><i class="fas fw fa-login"></i> Log out</a>
                     <?php } else { ?>
